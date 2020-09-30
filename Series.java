@@ -1,7 +1,7 @@
 import java.util.*;
 public class Series
 {
-    void main()
+    public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
         Series s = new Series();
