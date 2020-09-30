@@ -1,7 +1,7 @@
 import java.util.*;
 public class Piglatin
 {
-    void main()
+    public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
         String word, vowels, nword = "", fl = "";
