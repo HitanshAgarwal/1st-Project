@@ -4,7 +4,9 @@ public class Sort
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        int a[] = new int [10];
+        System.out.println("Enter size of the array");
+        int size = sc.nextInt();
+        int a[] = new int [size];
         int t;
         System.out.print("\f");
         for (int i = 0; i < 10; i++)
